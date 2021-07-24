@@ -1,0 +1,53 @@
+.answers {
+    &__text {
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        color: #000;
+
+        margin-bottom: 30px;
+    }
+
+    &__label {
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__icon {
+    }
+}
+
+.answer {
+    background-color: #f8f8f8;
+    padding: 30px 40px;
+    cursor: pointer;
+    overflow-wrap: break-word;
+
+    &:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    &__title {
+        font-weight: 600;
+
+        margin-right: 10px;
+    }
+
+    &__desc {
+        display: none;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between; 
+    }
+}

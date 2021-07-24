@@ -1,0 +1,99 @@
+
+@import "vars";
+@import "fonts";
+@import "clear";
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    font-family: $primaryFont;
+    font-size: $mainFontSize;
+    color: #202945;
+    
+    line-height: 20px;
+}
+
+.container {
+    max-width: $containerWidth;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+
+    text-align: center;
+    text-transform: uppercase;
+    
+    overflow-wrap: break-word;
+}
+
+.btn {
+    font-size: 11px;
+    line-height: 15px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    padding: 10px 20px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 300ms;
+
+    .icon {
+        margin-left: 10px;
+    }
+}
+.btn__dark {
+    background: #202945;
+    color: #fff;
+
+    &:hover {
+        background-color: lighten(#202945, 15%);
+    }
+}
+.btn__light {
+    background-color: #fff;
+    color: #000;
+
+    &:hover {
+        background-color: darken(#fff, 10%);
+    }
+}
+
+/*----------  structure  ----------*/
+@import "intro";
+@import "burger";
+
+@import "about";
+@import "products";
+@import "testimony";
+@import "reception";
+@import "consist";
+@import "reference";
+@import "facts";
+@import "answers";
+@import "reviews";
+@import "order";
+@import "footer";
+/*----------  /structure  ----------*/
