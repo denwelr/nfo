@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'icon';
+  src:
+    url('../fonts/Icons/icon.ttf?fyr9x0') format('truetype'),
+    url('../fonts/Icons/fonts/icon.woff?fyr9x0') format('woff'),
+    url('../fonts/Icons/fonts/icon.svg?fyr9x0#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e907";
+}
+.icon-fb:before {
+  content: "\e912";
+}
+.icon-inst:before {
+  content: "\e913";
+}
+.icon-tg:before {
+  content: "\e914";
+}
+.icon-yt:before {
+  content: "\e915";
+}
+.icon-bag:before {
+  content: "\e901";
+}
+.icon-money:before {
+  content: "\e902";
+}
+.icon-alco:before {
+  content: "\e900";
+}
+.icon-body:before {
+  content: "\e903";
+}
+.icon-digestion:before {
+  content: "\e904";
+}
+.icon-gastro:before {
+  content: "\e905";
+}
+.icon-gullet:before {
+  content: "\e906";
+}
+.icon-illness:before {
+  content: "\e908";
+}
+.icon-intoxication:before {
+  content: "\e909";
+}
+.icon-malaise:before {
+  content: "\e90a";
+}
+.icon-pills:before {
+  content: "\e90b";
+}
+.icon-poisoning:before {
+  content: "\e90c";
+}
+.icon-protect:before {
+  content: "\e90d";
+}
+.icon-stomach:before {
+  content: "\e90e";
+}
+.icon-stomach2:before {
+  content: "\e90f";
+}
+.icon-stomach3:before {
+  content: "\e910";
+}
+.icon-swap:before {
+  content: "\e911";
+}
+.icon-stack:before {
+  content: "\e92e";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-arrow:before {
+  content: "\ea3c";
+}

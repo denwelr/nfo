@@ -1,0 +1,108 @@
+.footer {
+  background-color: #202945;
+  color: #fff;
+  padding: 60px 0;
+
+  &__body {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 70px;
+  }
+
+  &__links {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  &__soc-link {
+    display: block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__socials {
+    display: flex;
+
+    margin-top: 60px;
+  }
+
+  &__media-link {
+    display: block;
+    transition: transform 300ms;
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__panel {
+    justify-items: end;
+  }
+
+  &__input {
+    position: relative;
+    margin-bottom: 50px;
+
+    input {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      color: inherit;
+
+      border-bottom: 1px solid #e6eaee;
+    }
+  }
+
+  &__input-icon {
+    position: absolute;
+    right: 0;
+  }
+
+  &__navs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+  }
+
+  &__nav-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+
+    margin-bottom: 12px;
+  }
+
+  &__list {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__copy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    column-gap: 30px;
+
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  &__copy-link {
+    text-decoration: underline;
+  }
+}

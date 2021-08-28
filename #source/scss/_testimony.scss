@@ -1,0 +1,53 @@
+
+.testimony {
+    padding-bottom: 115px;
+    padding-top: 100px;
+
+    &__body {
+        max-width: 780px;
+        margin: 0 auto;
+
+        padding: 0 20px;
+    }
+
+    &__title {
+        margin-bottom: 25px;
+    }
+
+    &__desc {
+        text-align: center;
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: auto auto;
+        //column-gap: 270px;
+        row-gap: 70px;
+
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+
+    &__item {
+        text-align: center;
+
+        &-text {
+            display: block;
+            overflow-wrap: break-word;
+        }
+        &-icon {
+            font-size: 64px;
+            display: block;
+    
+            margin-bottom: 20px;
+        }
+    }
+
+    &__info {
+        text-align: center;
+    }
+
+    &__btn {
+        margin-top: 33px;
+    }
+}

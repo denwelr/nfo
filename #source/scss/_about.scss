@@ -1,0 +1,171 @@
+.about {
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+    display: flex;
+
+    &__text {
+        flex: 0 1 460px;
+        margin-right: 30px;
+    }
+
+    &__title {
+        text-align: left;
+        margin-bottom: 32px;
+    }
+
+    &__subtitle {
+        margin-bottom: 70px;
+    }
+
+    &__fact {
+        background-color: #f8f8f8;
+        padding: 25px;
+    }
+
+    &__advantages {
+        position: relative;
+    }
+
+    &__items {
+        border: 1px solid #294635;
+        border-radius: 50%;
+
+        max-width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);      
+    }
+
+    &__main-item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        margin-left: -90px;
+        margin-top: -90px;
+
+        text-align: center;
+
+        width: 180px;
+        height: 180px;
+
+        border-radius: 50%;
+        background: #ebebeb;
+
+        display: flex;
+
+        span {
+            margin: auto;
+
+            color: #a9a9a9;
+        }
+    }
+
+    &__item {
+        position: relative;
+        >span {
+            display: block;
+            text-align: center;
+
+            overflow-wrap: break-word;
+            hyphens: auto;
+
+            max-width: 155px;
+        }
+
+        &_1,
+        &_2 {
+            margin-top: 90px;
+        }
+        &_1 {
+            margin-left: 110px;
+        }
+
+        &_3,
+        &_4 {
+            align-self: center;
+        }
+
+        &_4 {
+            margin-left: 90px;
+        }
+
+        &_3 {
+            margin-right: 85px;
+
+            justify-self: end;
+        }
+
+        &_5,
+        &_6 {
+            align-self: start;
+            margin-top: 35px;
+        }
+        &_5 {
+            justify-self: end;
+            margin-right: 25px;
+        }
+        &_6 {
+            justify-self: start;
+            margin-left: 25px;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+
+        font-size: 42px;
+        background-color: #fff;
+        padding: 10px;
+
+        display: flex;
+        border-radius: 50%;
+
+        span {
+            margin: auto;
+        }
+
+        &_1 {
+            left: 0;
+            top: 0;
+
+            transform: translate(-45px, -60px);
+        }
+
+        &_2 {
+            right: 0;
+            top: 0;   
+
+            transform: translate(-90px, -90px);
+        }
+
+        &_3 {
+            left: 0;
+            top: 0;
+
+            transform: translate(-60px, -10px);
+        }
+
+        &_4 {
+            top: 0;
+            right: 0;
+            transform: translate(30px, -10px);
+            
+        }
+        &_5 {
+            bottom: 0;
+            left: 0;
+
+            transform: translate(0, 65px);
+        }
+
+        &_6 {
+            bottom: 0;
+            right: 0;
+
+            transform: translate(30px, 70px);
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.reference {
+    margin-left: 75px;
+    margin-right: 75px;
+    
+    background: conic-gradient(from 231deg at 76% 46%, #5bb37f 0deg, rgba(70, 141, 99, 0) 360deg), #294635;
+    border-radius: 30px;
+    padding: 50px 110px;
+
+    position: relative;
+    color: #fff;
+
+    &__text {
+        max-width: 500px;
+    }
+
+    &__title {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    &__desc {
+        margin-bottom: 40px;
+    }
+
+    &__btn {
+        color: #000;
+    }
+
+    &__img {
+        position: absolute;
+        right: 160px;
+        bottom: 0;
+        margin-bottom: -5px;
+    }
+}
